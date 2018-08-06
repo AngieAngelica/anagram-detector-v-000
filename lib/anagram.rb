@@ -10,7 +10,7 @@ class Anagram
       if word_in_array.split(" ").sort == @word.split(" ").sort
         return word_in_array
       else
-        return []
+        return nil
       end
     end
   end
