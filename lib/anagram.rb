@@ -9,8 +9,6 @@ class Anagram
     array.select do |word_in_array|
       if word_in_array.split(" ").sort == @word.split(" ").sort
         puts word_in_array
-      else
-        puts []
       end
     end
   end
