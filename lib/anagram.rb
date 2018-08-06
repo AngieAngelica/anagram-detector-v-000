@@ -9,7 +9,7 @@ class Anagram
     array.select do |word_in_array|
       if word_in_array.split(" ").sort == @word.split(" ").sort
       else
-        []
+        return []
       end
     end
   end
