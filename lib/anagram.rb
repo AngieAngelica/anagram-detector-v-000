@@ -11,6 +11,4 @@ class Anagram
       else []
     end
   end
-  
-  
 end
